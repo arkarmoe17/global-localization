@@ -1,0 +1,453 @@
+{
+    "country": [
+        {
+            "key": "1",
+            "EN": "Myanmar",
+            "MM": "မြန်မာ"
+        },
+        {
+            "key": "2",
+            "EN": "Thailand",
+            "MM": "ထိုင်း"
+        },
+        {
+            "key": "3",
+            "EN": "Singapore",
+            "MM": "စင်္ကာပူ"
+        }
+    ],
+    "region": [
+        {
+            "countryRefKey": "1",
+            "data": [
+                {
+                    "key": "1",
+                    "EN": "Yangon Region",
+                    "MM": "ရန်ကုန်တိုင်းဒေသကြီး"
+                },
+                {
+                    "key": "2",
+                    "EN": "Mandalay Region",
+                    "MM": "မန္တလေးတိုင်းဒေသကြီး"
+                },
+                {
+                    "key": "3",
+                    "EN": "Naypyitaw Region",
+                    "MM": "နေပြည်တော်တိုင်းဒေသကြီး"
+                },
+                {
+                    "key": "4",
+                    "EN": "Kachin Region",
+                    "MM": "ကချင်ဒေသ"
+                },
+                {
+                    "key": "5",
+                    "EN": "Sagaing Region",
+                    "MM": "စစ်ကိုင်းတိုင်းဒေသကြီး"
+                },
+                {
+                    "key": "6",
+                    "EN": "Tanintharyi Region",
+                    "MM": "တနင်္သာရီတိုင်းဒေသကြီး"
+                },
+                {
+                    "key": "7",
+                    "EN": "Bago Region",
+                    "MM": "ပဲခူးတိုင်းဒေသကြီး"
+                },
+                {
+                    "key": "8",
+                    "EN": "Kachin State",
+                    "MM": "ကချင်ပြည်နယ်"
+                },
+                {
+                    "key": "9",
+                    "EN": "Kayah State",
+                    "MM": "ကယားပြည်နယ်"
+                },
+                {
+                    "key": "10",
+                    "EN": "Kayin State",
+                    "MM": "ကရင်ပြည်နယ်"
+                },
+                {
+                    "key": "11",
+                    "EN": "Chin State",
+                    "MM": "ချင်းပြည်နယ်"
+                },
+                {
+                    "key": "12",
+                    "EN": "Rakhine State",
+                    "MM": "ရခိုင်ပြည်နယ်"
+                },
+                {
+                    "key": "13",
+                    "EN": "Shan State",
+                    "MM": "ရှမ်းပြည်နယ်"
+                },
+                {
+                    "key": "14",
+                    "EN": "Mon State",
+                    "MM": "မွန်ပြည်နယ်"
+                }
+            ]
+        }
+    ],
+    "township": [
+        {
+            "countryRefKey": "1",
+            "data": [
+                {
+                    "regionRefKey": "1",
+                    "data": [
+                        {
+                            "key": "1",
+                            "EN": "Ahlon",
+                            "MM": "အလုံ"
+                        },
+                        {
+                            "key": "2",
+                            "EN": "Bahan",
+                            "MM": "ဗဟန်း"
+                        },
+                        {
+                            "key": "3",
+                            "EN": "Botahtaung",
+                            "MM": "ဗိုလ်တစ်ထောင်"
+                        },
+                        {
+                            "key": "4",
+                            "EN": "Dagon Seikkan",
+                            "MM": ""
+                        },
+                        {
+                            "key": "5",
+                            "EN": "Dagon",
+                            "MM": "ဒဂုံ"
+                        },
+                        {
+                            "key": "6",
+                            "EN": "Dala",
+                            "MM": ""
+                        },
+                        {
+                            "key": "7",
+                            "EN": "Dawbon",
+                            "MM": ""
+                        },
+                        {
+                            "key": "8",
+                            "EN": "East Dagon",
+                            "MM": ""
+                        },
+                        {
+                            "key": "9",
+                            "EN": "Hlaing",
+                            "MM": "လှိုင်"
+                        },
+                        {
+                            "key": "10",
+                            "EN": "Hlaingthaya",
+                            "MM": ""
+                        },
+                        {
+                            "key": "11",
+                            "EN": "Insein",
+                            "MM": ""
+                        },
+                        {
+                            "key": "12",
+                            "EN": "Kamayut",
+                            "MM": "ကမာရွတ်"
+                        },
+                        {
+                            "key": "13",
+                            "EN": "Kyauktada",
+                            "MM": "ကျောက်တံတား"
+                        },
+                        {
+                            "key": "14",
+                            "EN": "Kyeemyindaing",
+                            "MM": ""
+                        },
+                        {
+                            "key": "15",
+                            "EN": "Lanmadaw",
+                            "MM": "လမ်းမတော်"
+                        },
+                        {
+                            "key": "16",
+                            "EN": "Latha",
+                            "MM": "လသာ"
+                        },
+                        {
+                            "key": "17",
+                            "EN": "Mayangone",
+                            "MM": "မရမ်းကုန်း"
+                        },
+                        {
+                            "key": "18",
+                            "EN": "Mingala Taungnyunt",
+                            "MM": ""
+                        },
+                        {
+                            "key": "19",
+                            "EN": "Mingaladon",
+                            "MM": ""
+                        },
+                        {
+                            "key": "20",
+                            "EN": "North Dagon",
+                            "MM": ""
+                        },
+                        {
+                            "key": "21",
+                            "EN": "North Okkalapa",
+                            "MM": ""
+                        },
+                        {
+                            "key": "22",
+                            "EN": "Pabedan",
+                            "MM": "ပန်းဘဲတန်း"
+                        },
+                        {
+                            "key": "23",
+                            "EN": "Pazundaung",
+                            "MM": ""
+                        },
+                        {
+                            "key": "24",
+                            "EN": "Sanchaung",
+                            "MM": "စမ်းချောင်း"
+                        },
+                        {
+                            "key": "25",
+                            "EN": "Seikkan",
+                            "MM": ""
+                        },
+                        {
+                            "key": "26",
+                            "EN": "Seikkyi Kanaungto",
+                            "MM": ""
+                        },
+                        {
+                            "key": "27",
+                            "EN": "Shwe Pyi Thar",
+                            "MM": "ရွှေပြည်သာ"
+                        },
+                        {
+                            "key": "28",
+                            "EN": "South Dagon",
+                            "MM": ""
+                        },
+                        {
+                            "key": "29",
+                            "EN": "South Okkalapa",
+                            "MM": "တောင်ဥက္ကလာပ"
+                        },
+                        {
+                            "key": "30",
+                            "EN": "Tamwe",
+                            "MM": "တာမွေ"
+                        },
+                        {
+                            "key": "31",
+                            "EN": "Thaketa",
+                            "MM": "သာကေတ"
+                        },
+                        {
+                            "key": "32",
+                            "EN": "Thingangyun",
+                            "MM": "သင်္ဃန်းကျွန်း"
+                        },
+                        {
+                            "key": "33",
+                            "EN": "Yankin",
+                            "MM": "ရန်ကင်း"
+                        }
+                    ]
+                },
+                {
+                    "regionRefKey": "2",
+                    "data": [
+                        {
+                            "key": "1",
+                            "EN": "Aungmyethazan",
+                            "MM": ""
+                        },
+                        {
+                            "key": "2",
+                            "EN": "Chanayethazan",
+                            "MM": ""
+                        },
+                        {
+                            "key": "3",
+                            "EN": "Chanmyathazi",
+                            "MM": ""
+                        },
+                        {
+                            "key": "4",
+                            "EN": "Kyaukpadaung ",
+                            "MM": ""
+                        },
+                        {
+                            "key": "5",
+                            "EN": "Kyaukse",
+                            "MM": ""
+                        },
+                        {
+                            "key": "6",
+                            "EN": "Maha Aungmye",
+                            "MM": ""
+                        },
+                        {
+                            "key": "7",
+                            "EN": "Mahlaing",
+                            "MM": ""
+                        },
+                        {
+                            "key": "8",
+                            "EN": "Meiktila",
+                            "MM": ""
+                        },
+                        {
+                            "key": "9",
+                            "EN": "Mogok",
+                            "MM": ""
+                        },
+                        {
+                            "key": "10",
+                            "EN": "Myingyan",
+                            "MM": ""
+                        },
+                        {
+                            "key": "11",
+                            "EN": "Myittha",
+                            "MM": ""
+                        },
+                        {
+                            "key": "12",
+                            "EN": "Natogyi",
+                            "MM": ""
+                        },
+                        {
+                            "key": "13",
+                            "EN": "Ngazun",
+                            "MM": ""
+                        },
+                        {
+                            "key": "14",
+                            "EN": "Nyaung-U",
+                            "MM": ""
+                        },
+                        {
+                            "key": "15",
+                            "EN": "Patheingyi",
+                            "MM": ""
+                        },
+                        {
+                            "key": "16",
+                            "EN": "Pyawbwe",
+                            "MM": ""
+                        },
+                        {
+                            "key": "17",
+                            "EN": "Pyigyidagun",
+                            "MM": ""
+                        },
+                        {
+                            "key": "18",
+                            "EN": "Pyinoolwin",
+                            "MM": ""
+                        },
+                        {
+                            "key": "19",
+                            "EN": "Singu",
+                            "MM": ""
+                        },
+                        {
+                            "key": "20",
+                            "EN": "Sintgaing",
+                            "MM": ""
+                        },
+                        {
+                            "key": "21",
+                            "EN": "Tada-U",
+                            "MM": ""
+                        },
+                        {
+                            "key": "22",
+                            "EN": "Taungtha",
+                            "MM": ""
+                        },
+                        {
+                            "key": "23",
+                            "EN": "Thabeikkyin",
+                            "MM": ""
+                        },
+                        {
+                            "key": "24",
+                            "EN": "Thazi",
+                            "MM": ""
+                        },
+                        {
+                            "key": "25",
+                            "EN": "Wundwin",
+                            "MM": ""
+                        },
+                        {
+                            "key": "26",
+                            "EN": "Yamethin",
+                            "MM": ""
+                        }
+                    ]
+                },
+                {
+                    "refKey": "3",
+                    "data": [
+                        {
+                            "key": "1",
+                            "EN": "Ottarathiri",
+                            "MM": "ဥတ္တရသီရိ"
+                        },
+                        {
+                            "key": "2",
+                            "EN": "Pobbathiri",
+                            "MM": "ပုဗ္ဗသီရိ"
+                        },
+                        {
+                            "key": "3",
+                            "EN": "Tatkone",
+                            "MM": "တပ်ကုန်း"
+                        },
+                        {
+                            "key": "4",
+                            "EN": "Zeyathiri ",
+                            "MM": "ဇေယျာသီရိ"
+                        },
+                        {
+                            "key": "5",
+                            "EN": "Dekkhinathiri",
+                            "MM": "ဒက္ခိဏသီရိ"
+                        },
+                        {
+                            "key": "6",
+                            "EN": "Lewe",
+                            "MM": "လယ်ဝေး"
+                        },
+                        {
+                            "key": "7",
+                            "EN": "Pyinmana",
+                            "MM": "ပျဉ်းမနား"
+                        },
+                        {
+                            "key": "8",
+                            "EN": "Zabuthiri",
+                            "MM": "ဇမ္ဗူသီရိ"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

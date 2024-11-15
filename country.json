@@ -37,7 +37,7 @@
                 },
                 {
                     "key": "4",
-                    "EN": "Kachin Region",
+                    "EN": "Kachin State",
                     "MM": "ကချင်ဒေသ"
                 },
                 {
@@ -91,6 +91,391 @@
                     "MM": "မွန်ပြည်နယ်"
                 }
             ]
+        },
+        {
+            "countryRefKey": "2",
+            "data": [
+                {
+                    "key": "1",
+                    "EN": "Amnat Charoen",
+                    "MM": "အမ်းနတ်ချရွန်"
+                },
+                {
+                    "key": "2",
+                    "EN": "Ang Thong",
+                    "MM": "အင်ထောင်း"
+                },
+                {
+                    "key": "3",
+                    "EN": "Bangkok",
+                    "MM": "ဘန်ကောက်"
+                },
+                {
+                    "key": "4",
+                    "EN": "Bueng Kan",
+                    "MM": "ဘူန်ကန်"
+                },
+                {
+                    "key": "5",
+                    "EN": "Buriram",
+                    "MM": "ဘူရီရမ်"
+                },
+                {
+                    "key": "6",
+                    "EN": "Chachoengsao",
+                    "MM": "ချာခယောင်းစောင်"
+                },
+                {
+                    "key": "7",
+                    "EN": "Chai Nat",
+                    "MM": "ချိုင်နတ်"
+                },
+                {
+                    "key": "8",
+                    "EN": "Chaiyaphum",
+                    "MM": "ချိုင်ယဖွမ်း"
+                },
+                {
+                    "key": "9",
+                    "EN": "Chanthaburi",
+                    "MM": "ချန်သဘူရီ"
+                },
+                {
+                    "key": "10",
+                    "EN": "Chiang Mai",
+                    "MM": "ချင်းမိုင်"
+                },
+                {
+                    "key": "11",
+                    "EN": "Chiang Rai",
+                    "MM": "ချင်းရိုင်"
+                },
+                {
+                    "key": "12",
+                    "EN": "Chonburi",
+                    "MM": "ချွန်ဘူရီ"
+                },
+                {
+                    "key": "13",
+                    "EN": "Chumphon",
+                    "MM": "ချန်ဖွမ်း"
+                },
+                {
+                    "key": "14",
+                    "EN": "Kalasin",
+                    "MM": "ကာလစင်"
+                },
+                {
+                    "key": "15",
+                    "EN": "Kamphaeng Phet",
+                    "MM": "ကမ်ဖန်ဖက်"
+                },
+                {
+                    "key": "16",
+                    "EN": "Kanchanaburi",
+                    "MM": "ကန်ဂျနာဘူရီ"
+                },
+                {
+                    "key": "17",
+                    "EN": "Khon Kaen",
+                    "MM": "ခွန်ကဲန်း"
+                },
+                {
+                    "key": "18",
+                    "EN": "Krabi",
+                    "MM": "ခရာဘီ"
+                },
+                {
+                    "key": "19",
+                    "EN": "Lampang",
+                    "MM": "လမ်ပန်"
+                },
+                {
+                    "key": "20",
+                    "EN": "Lamphun",
+                    "MM": "လမ်ဖွန်း"
+                },
+                {
+                    "key": "21",
+                    "EN": "Loei",
+                    "MM": "လိုအီ"
+                },
+                {
+                    "key": "22",
+                    "EN": "Lopburi",
+                    "MM": "လွပ်ဘူရီ"
+                },
+                {
+                    "key": "23",
+                    "EN": "Mae Hong Son",
+                    "MM": "မဲဟောင်းဆုံ"
+                },
+                {
+                    "key": "24",
+                    "EN": "Maha Sarakham",
+                    "MM": "မဟာစာရခမ်း"
+                },
+                {
+                    "key": "25",
+                    "EN": "Mukdahan",
+                    "MM": "မုတ်ဒဟန်း"
+                },
+                {
+                    "key": "26",
+                    "EN": "Nakhon Nayok",
+                    "MM": "နခွန်နယောက်"
+                },
+                {
+                    "key": "27",
+                    "EN": "Nakhon Pathom",
+                    "MM": "နခွန်ပထုံ"
+                },
+                {
+                    "key": "28",
+                    "EN": "Nakhon Phanom",
+                    "MM": "နခွန်ဖနွန်"
+                },
+                {
+                    "key": "29",
+                    "EN": "Nakhon Ratchasima",
+                    "MM": "နခွန်ရတ်ချစီမား"
+                },
+                {
+                    "key": "30",
+                    "EN": "Nakhon Sawan",
+                    "MM": "နခွန်ဆာဝမ်"
+                },
+                {
+                    "key": "31",
+                    "EN": "Nakhon Si Thammarat",
+                    "MM": "နခွန်စီသမ္မရာတ်"
+                },
+                {
+                    "key": "32",
+                    "EN": "Nan",
+                    "MM": "နန်း"
+                },
+                {
+                    "key": "33",
+                    "EN": "Narathiwat",
+                    "MM": "နာရာသီဝတ်"
+                },
+                {
+                    "key": "34",
+                    "EN": "Nong Bua Lam Phu",
+                    "MM": "နောင့်ဘူဝါလမ်ဖူ"
+                },
+                {
+                    "key": "35",
+                    "EN": "Nong Khai",
+                    "MM": "နောင့်ခိုင်"
+                },
+                {
+                    "key": "36",
+                    "EN": "Nonthaburi",
+                    "MM": "နွန်းသဘူရီ"
+                },
+                {
+                    "key": "37",
+                    "EN": "Pathum Thani",
+                    "MM": "ပထုံမ်သနီ"
+                },
+                {
+                    "key": "38",
+                    "EN": "Pattani",
+                    "MM": "ပတ်တနီ"
+                },
+                {
+                    "key": "39",
+                    "EN": "Phang Nga",
+                    "MM": "ဖန်းင"
+                },
+                {
+                    "key": "40",
+                    "EN": "Phatthalung",
+                    "MM": "ဖတ်ထလုံ"
+                },
+                {
+                    "key": "41",
+                    "EN": "Phayao",
+                    "MM": "ဖယော"
+                },
+                {
+                    "key": "42",
+                    "EN": "Phetchabun",
+                    "MM": "ဖက်ချာဘန်း"
+                },
+                {
+                    "key": "43",
+                    "EN": "Phetchaburi",
+                    "MM": "ဖက်ချာဘူရီ"
+                },
+                {
+                    "key": "44",
+                    "EN": "Phichit",
+                    "MM": "ဖီချစ်"
+                },
+                {
+                    "key": "45",
+                    "EN": "Phitsanulok",
+                    "MM": "ဖိစနူလိုက်"
+                },
+                {
+                    "key": "46",
+                    "EN": "Phrae",
+                    "MM": "ဖရဲ"
+                },
+                {
+                    "key": "47",
+                    "EN": "Phuket",
+                    "MM": "ဖူးခက်"
+                },
+                {
+                    "key": "48",
+                    "EN": "Prachinburi",
+                    "MM": "ပရချင်ဘူရီ"
+                },
+                {
+                    "key": "49",
+                    "EN": "Prachuap Khiri Khan",
+                    "MM": "ပရချွတ်ခီရီခန်"
+                },
+                {
+                    "key": "50",
+                    "EN": "Ranong",
+                    "MM": "ရနောင်း"
+                },
+                {
+                    "key": "51",
+                    "EN": "Ratchaburi",
+                    "MM": "ရချာဘူရီ"
+                },
+                {
+                    "key": "52",
+                    "EN": "Rayong",
+                    "MM": "ရယောင်း"
+                },
+                {
+                    "key": "53",
+                    "EN": "Roi Et",
+                    "MM": "ရွိုင်အက်"
+                },
+                {
+                    "key": "54",
+                    "EN": "Sa Kaeo",
+                    "MM": "ဆားကဲယောင်း"
+                },
+                {
+                    "key": "55",
+                    "EN": "Sakon Nakhon",
+                    "MM": "ဆခွန်နခွန်"
+                },
+                {
+                    "key": "56",
+                    "EN": "Samut Prakan",
+                    "MM": "ဆမုတ်ပရကန်"
+                },
+                {
+                    "key": "57",
+                    "EN": "Samut Sakhon",
+                    "MM": "ဆမုတ်စခွန်"
+                },
+                {
+                    "key": "58",
+                    "EN": "Samut Songkhram",
+                    "MM": "ဆမုတ်ဆုံခရမ်"
+                },
+                {
+                    "key": "59",
+                    "EN": "Saraburi",
+                    "MM": "ဆရဘူရီ"
+                },
+                {
+                    "key": "60",
+                    "EN": "Satun",
+                    "MM": "ဆတွန်း"
+                },
+                {
+                    "key": "61",
+                    "EN": "Sing Buri",
+                    "MM": "စင်းဘူရီ"
+                },
+                {
+                    "key": "62",
+                    "EN": "Sisaket",
+                    "MM": "စီဆခတ်"
+                },
+                {
+                    "key": "63",
+                    "EN": "Songkhla",
+                    "MM": "ဆုံခလာ"
+                },
+                {
+                    "key": "64",
+                    "EN": "Sukhothai",
+                    "MM": "ဆုခိုထိုင်း"
+                },
+                {
+                    "key": "65",
+                    "EN": "Suphanburi",
+                    "MM": "ဆူဖန်ဘူရီ"
+                },
+                {
+                    "key": "66",
+                    "EN": "Surat Thani",
+                    "MM": "ဆူရတ်သနီ"
+                },
+                {
+                    "key": "67",
+                    "EN": "Surin",
+                    "MM": "ဆူရင်"
+                },
+                {
+                    "key": "68",
+                    "EN": "Tak",
+                    "MM": "တက်"
+                },
+                {
+                    "key": "69",
+                    "EN": "Trang",
+                    "MM": "ထရမ်း"
+                },
+                {
+                    "key": "70",
+                    "EN": "Trat",
+                    "MM": "ထရပ်"
+                },
+                {
+                    "key": "71",
+                    "EN": "Ubon Ratchathani",
+                    "MM": "ဦဘုံရာချသနီ"
+                },
+                {
+                    "key": "72",
+                    "EN": "Udon Thani",
+                    "MM": "ဦဒုံသနီ"
+                },
+                {
+                    "key": "73",
+                    "EN": "Uthai Thani",
+                    "MM": "ဦထိုင်းသနီ"
+                },
+                {
+                    "key": "74",
+                    "EN": "Uttaradit",
+                    "MM": "ဦထရာဒစ်"
+                },
+                {
+                    "key": "75",
+                    "EN": "Yala",
+                    "MM": "ယလာ"
+                },
+                {
+                    "key": "76",
+                    "EN": "Yasothon",
+                    "MM": "ယာဆိုးသွန်"
+                }
+            ]
         }
     ],
     "township": [
@@ -118,7 +503,7 @@
                         {
                             "key": "4",
                             "EN": "Dagon Seikkan",
-                            "MM": ""
+                            "MM": "ဒဂုံဆိပ်ကမ်း"
                         },
                         {
                             "key": "5",
@@ -128,17 +513,17 @@
                         {
                             "key": "6",
                             "EN": "Dala",
-                            "MM": ""
+                            "MM": "ဒလ"
                         },
                         {
                             "key": "7",
                             "EN": "Dawbon",
-                            "MM": ""
+                            "MM": "ဒေါပုံ"
                         },
                         {
                             "key": "8",
                             "EN": "East Dagon",
-                            "MM": ""
+                            "MM": "အရှေ့ဒဂုံ"
                         },
                         {
                             "key": "9",
@@ -148,12 +533,12 @@
                         {
                             "key": "10",
                             "EN": "Hlaingthaya",
-                            "MM": ""
+                            "MM": "လှိုင်သာယာ"
                         },
                         {
                             "key": "11",
                             "EN": "Insein",
-                            "MM": ""
+                            "MM": "အင်းစိန်"
                         },
                         {
                             "key": "12",
@@ -168,7 +553,7 @@
                         {
                             "key": "14",
                             "EN": "Kyeemyindaing",
-                            "MM": ""
+                            "MM": "ကြည့်မြင်တိုင်"
                         },
                         {
                             "key": "15",
@@ -188,22 +573,22 @@
                         {
                             "key": "18",
                             "EN": "Mingala Taungnyunt",
-                            "MM": ""
+                            "MM": "မင်္ဂလာတောင်ညွန့်"
                         },
                         {
                             "key": "19",
                             "EN": "Mingaladon",
-                            "MM": ""
+                            "MM": "မင်္ဂလာဒုံ"
                         },
                         {
                             "key": "20",
                             "EN": "North Dagon",
-                            "MM": ""
+                            "MM": "မြောက်ဒဂုံ"
                         },
                         {
                             "key": "21",
                             "EN": "North Okkalapa",
-                            "MM": ""
+                            "MM": "မြောက်ဥက္ကလာပ"
                         },
                         {
                             "key": "22",
@@ -213,7 +598,7 @@
                         {
                             "key": "23",
                             "EN": "Pazundaung",
-                            "MM": ""
+                            "MM": "ပုဇွန်တောင်"
                         },
                         {
                             "key": "24",
@@ -223,12 +608,12 @@
                         {
                             "key": "25",
                             "EN": "Seikkan",
-                            "MM": ""
+                            "MM": "ဆိပ်ကမ်း"
                         },
                         {
                             "key": "26",
                             "EN": "Seikkyi Kanaungto",
-                            "MM": ""
+                            "MM": "ဆိပ်ကြီးခနောင်တို"
                         },
                         {
                             "key": "27",
@@ -238,7 +623,7 @@
                         {
                             "key": "28",
                             "EN": "South Dagon",
-                            "MM": ""
+                            "MM": "တောင်ဒဂုံ"
                         },
                         {
                             "key": "29",
@@ -273,132 +658,132 @@
                         {
                             "key": "1",
                             "EN": "Aungmyethazan",
-                            "MM": ""
+                            "MM": "အောင်မြေသာဇံ"
                         },
                         {
                             "key": "2",
                             "EN": "Chanayethazan",
-                            "MM": ""
+                            "MM": "ချမ်းမြသာဇံ"
                         },
                         {
                             "key": "3",
                             "EN": "Chanmyathazi",
-                            "MM": ""
+                            "MM": "ချမ်းမြသာစည်"
                         },
                         {
                             "key": "4",
                             "EN": "Kyaukpadaung ",
-                            "MM": ""
+                            "MM": "ကျောက်ပန်းတောင်း"
                         },
                         {
                             "key": "5",
                             "EN": "Kyaukse",
-                            "MM": ""
+                            "MM": "ကျောက်ဆည်"
                         },
                         {
                             "key": "6",
                             "EN": "Maha Aungmye",
-                            "MM": ""
+                            "MM": "မဟာအောင်မြေ"
                         },
                         {
                             "key": "7",
                             "EN": "Mahlaing",
-                            "MM": ""
+                            "MM": "မလှိုင်"
                         },
                         {
                             "key": "8",
                             "EN": "Meiktila",
-                            "MM": ""
+                            "MM": "မိတ္ထီလာ"
                         },
                         {
                             "key": "9",
                             "EN": "Mogok",
-                            "MM": ""
+                            "MM": "မိုးကုတ်"
                         },
                         {
                             "key": "10",
                             "EN": "Myingyan",
-                            "MM": ""
+                            "MM": "မြင်းခြံ"
                         },
                         {
                             "key": "11",
                             "EN": "Myittha",
-                            "MM": ""
+                            "MM": "မြစ်သား"
                         },
                         {
                             "key": "12",
                             "EN": "Natogyi",
-                            "MM": ""
+                            "MM": "နွားထိုးကြီး"
                         },
                         {
                             "key": "13",
                             "EN": "Ngazun",
-                            "MM": ""
+                            "MM": "ငါန်းဇွန်"
                         },
                         {
                             "key": "14",
                             "EN": "Nyaung-U",
-                            "MM": ""
+                            "MM": "ညောင်ဦး"
                         },
                         {
                             "key": "15",
                             "EN": "Patheingyi",
-                            "MM": ""
+                            "MM": "ပုသိမ်ကြီး"
                         },
                         {
                             "key": "16",
                             "EN": "Pyawbwe",
-                            "MM": ""
+                            "MM": "ပျော်ဘွယ်"
                         },
                         {
                             "key": "17",
                             "EN": "Pyigyidagun",
-                            "MM": ""
+                            "MM": "ပြည်ကြီးတံခွန်"
                         },
                         {
                             "key": "18",
                             "EN": "Pyinoolwin",
-                            "MM": ""
+                            "MM": "ပြင်ဦးလွင်"
                         },
                         {
                             "key": "19",
                             "EN": "Singu",
-                            "MM": ""
+                            "MM": "စဉ့်ကူး"
                         },
                         {
                             "key": "20",
                             "EN": "Sintgaing",
-                            "MM": ""
+                            "MM": "စဉ့်ကိုင်"
                         },
                         {
                             "key": "21",
                             "EN": "Tada-U",
-                            "MM": ""
+                            "MM": "တံတားဦး"
                         },
                         {
                             "key": "22",
                             "EN": "Taungtha",
-                            "MM": ""
+                            "MM": "တောင်သာ"
                         },
                         {
                             "key": "23",
                             "EN": "Thabeikkyin",
-                            "MM": ""
+                            "MM": "သပိတ်ကျင်း"
                         },
                         {
                             "key": "24",
                             "EN": "Thazi",
-                            "MM": ""
+                            "MM": "သာစည်"
                         },
                         {
                             "key": "25",
                             "EN": "Wundwin",
-                            "MM": ""
+                            "MM": "ဝမ်းတွင်း"
                         },
                         {
                             "key": "26",
                             "EN": "Yamethin",
-                            "MM": ""
+                            "MM": "ရမည်းသင်း"
                         }
                     ]
                 },

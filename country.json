@@ -788,7 +788,7 @@
                     ]
                 },
                 {
-                    "refKey": "3",
+                    "regionRefKey": "3",
                     "data": [
                         {
                             "key": "1",
@@ -829,6 +829,266 @@
                             "key": "8",
                             "EN": "Zabuthiri",
                             "MM": "ဇမ္ဗူသီရိ"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "countryRefKey": "2",
+            "data": [
+                {
+                    "regionRefKey": "3",
+                    "data": [
+                        {
+                            "key": "1",
+                            "EN": "Bang Bon",
+                            "MM": "ဘန်ဘွန်း"
+                        },
+                        {
+                            "key": "2",
+                            "EN": "Bang Kapi",
+                            "MM": "ဘန်ကပီ"
+                        },
+                        {
+                            "key": "3",
+                            "EN": "Bang Khae",
+                            "MM": "ဘန်ခဲ"
+                        },
+                        {
+                            "key": "4",
+                            "EN": "Bang Khen",
+                            "MM": "ဘန်ခန်"
+                        },
+                        {
+                            "key": "5",
+                            "EN": "Bang Kho Laem",
+                            "MM": "ဘန်ခိုလယမ်"
+                        },
+                        {
+                            "key": "6",
+                            "EN": "Bang Khun Thian",
+                            "MM": "ဘန်ခွန်ထီရန်"
+                        },
+                        {
+                            "key": "7",
+                            "EN": "Bang Na",
+                            "MM": "ဘန်န"
+                        },
+                        {
+                            "key": "8",
+                            "EN": "Bang Phlat",
+                            "MM": "ဘန်ဖလတ်"
+                        },
+                        {
+                            "key": "9",
+                            "EN": "Bang Rak",
+                            "MM": "ဘန်ရက်"
+                        },
+                        {
+                            "key": "10",
+                            "EN": "Bang Sue",
+                            "MM": "ဘန်ဆူး"
+                        },
+                        {
+                            "key": "11",
+                            "EN": "Bangkok Noi",
+                            "MM": "ဘန်ကောက်နွိုင်"
+                        },
+                        {
+                            "key": "12",
+                            "EN": "Bangkok Yai",
+                            "MM": "ဘန်ကောက်ရိုင်"
+                        },
+                        {
+                            "key": "13",
+                            "EN": "Bueng Kum",
+                            "MM": "ဘွန်ကွန်"
+                        },
+                        {
+                            "key": "14",
+                            "EN": "Chatuchak",
+                            "MM": "ချတူချက်"
+                        },
+                        {
+                            "key": "15",
+                            "EN": "Chom Thong",
+                            "MM": "ကျွန်ထွန်"
+                        },
+                        {
+                            "key": "16",
+                            "EN": "Din Daeng",
+                            "MM": "ဒင်ဒန်း"
+                        },
+                        {
+                            "key": "17",
+                            "EN": "Don Mueang",
+                            "MM": "ဒွန်မူဝန်"
+                        },
+                        {
+                            "key": "18",
+                            "EN": "Dusit",
+                            "MM": "ဒူဆစ်"
+                        },
+                        {
+                            "key": "19",
+                            "EN": "Huai Khwang",
+                            "MM": "ဟွေ့ခွမ်"
+                        },
+                        {
+                            "key": "20",
+                            "EN": "Khan Na Yao",
+                            "MM": "ခန်နာရောင်"
+                        },
+                        {
+                            "key": "21",
+                            "EN": "Khlong Sam Wa",
+                            "MM": "ခလုံဆမ်ဝ"
+                        },
+                        {
+                            "key": "22",
+                            "EN": "Khlong San",
+                            "MM": "ခလုံဆမ်"
+                        },
+                        {
+                            "key": "23",
+                            "EN": "Khlong Toei",
+                            "MM": "ခလုံတိုအိ"
+                        },
+                        {
+                            "key": "24",
+                            "EN": "Lak Si",
+                            "MM": "လက်စီ"
+                        },
+                        {
+                            "key": "25",
+                            "EN": "Lat Krabang",
+                            "MM": "လက်ခရဘန်း"
+                        },
+                        {
+                            "key": "26",
+                            "EN": "Lat Phrao",
+                            "MM": "လက်ဖရောင်"
+                        },
+                        {
+                            "key": "27",
+                            "EN": "Min Buri",
+                            "MM": "မင်ဘူရီ"
+                        },
+                        {
+                            "key": "28",
+                            "EN": "Nong Chok",
+                            "MM": "နွန်းချော့က်"
+                        },
+                        {
+                            "key": "29",
+                            "EN": "Nong Khaem",
+                            "MM": "နွန်းခအမ်"
+                        },
+                        {
+                            "key": "30",
+                            "EN": "Pathum Wan",
+                            "MM": "ပသူမ်ဝန်"
+                        },
+                        {
+                            "key": "31",
+                            "EN": "Phasi Charoen",
+                            "MM": "ဖစီချရွန်း"
+                        },
+                        {
+                            "key": "32",
+                            "EN": "Phaya Thai",
+                            "MM": "ဖရာထိုင်း"
+                        },
+                        {
+                            "key": "33",
+                            "EN": "Phra Khanong",
+                            "MM": "ဖရာခနွန်"
+                        },
+                        {
+                            "key": "34",
+                            "EN": "Phra Nakhon",
+                            "MM": "ဖရာနက်ခွန်"
+                        },
+                        {
+                            "key": "35",
+                            "EN": "Pom Prap Sattru Phai",
+                            "MM": "ပွန်ပရပ်ဆက်သရူဖိုင်"
+                        },
+                        {
+                            "key": "36",
+                            "EN": "Prawet",
+                            "MM": "ပရာဝတ်"
+                        },
+                        {
+                            "key": "37",
+                            "EN": "Rat Burana",
+                            "MM": "ရတ်ဘူရာန"
+                        },
+                        {
+                            "key": "38",
+                            "EN": "Ratchathewi",
+                            "MM": "ရက်ချာသီဝီ"
+                        },
+                        {
+                            "key": "39",
+                            "EN": "Sai Mai",
+                            "MM": "စိုင်းမိုင်"
+                        },
+                        {
+                            "key": "40",
+                            "EN": "Samphanthawong",
+                            "MM": "ဆမ်ဖန်သဝုံ"
+                        },
+                        {
+                            "key": "41",
+                            "EN": "Saphan Sung",
+                            "MM": "စဖန်ဆွန်"
+                        },
+                        {
+                            "key": "42",
+                            "EN": "Sathon",
+                            "MM": "စသွန်"
+                        },
+                        {
+                            "key": "43",
+                            "EN": "Suan Luang",
+                            "MM": "ဆဝန်လူရန်"
+                        },
+                        {
+                            "key": "44",
+                            "EN": "Taling Chan",
+                            "MM": "သလင်းချန်း"
+                        },
+                        {
+                            "key": "45",
+                            "EN": "Thawi Watthana",
+                            "MM": "သဝီဝတ်သန"
+                        },
+                        {
+                            "key": "46",
+                            "EN": "Thon Buri",
+                            "MM": "သွန်ဘူရီ"
+                        },
+                        {
+                            "key": "47",
+                            "EN": "Thung Khru",
+                            "MM": "သွန်းခရု"
+                        },
+                        {
+                            "key": "48",
+                            "EN": "Wang Thonglang",
+                            "MM": "ဝန်းသွန်လန်း"
+                        },
+                        {
+                            "key": "49",
+                            "EN": "Watthana",
+                            "MM": "ဝတ်သန"
+                        },
+                        {
+                            "key": "50",
+                            "EN": "Yan Nawa",
+                            "MM": "ရန်နဝ"
                         }
                     ]
                 }

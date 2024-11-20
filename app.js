@@ -1,10 +1,89 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const passport = require('passport');
+const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const cookieSession = require('cookie-session');
 const fs = require('fs');
+const User = require('./models/User'); // User model
 const app = express();
 const port = 3000;
 
 // Read the JSON data from the file
 const data = JSON.parse(fs.readFileSync('country.json', 'utf8'));
+
+// Connect to MongoDB
+mongoose.connect('mongodb://localhost:27017/local-trading', {useNewUrlParser: true, useUnifiedTopology: true})
+    .then(() => console.log('MongoDB connected successfully'))
+    .catch(err => {
+        console.error('MongoDB connection error:', err);
+        process.exit(1);
+    });
+
+// Configure cookie session
+app.use(cookieSession({
+    name: 'session',
+    keys: ['key1', 'key2']
+}));
+
+// Initialize Passport
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Configure Passport to use Google OAuth 2.0
+passport.use(new GoogleStrategy({
+    clientID: 'YOUR_GOOGLE_CLIENT_ID',
+    clientSecret: 'YOUR_GOOGLE_CLIENT_SECRET',
+    callbackURL: '/auth/google/callback'
+}, (accessToken, refreshToken, profile, done) => {
+    // Find or create user in the database
+    User.findOne({googleId: profile.id}, (err, user) => {
+        if (err) return done(err);
+        if (user) {
+            return done(null, user);
+        } else {
+            const newUser = new User({
+                googleId: profile.id,
+                displayName: profile.displayName,
+                email: profile.emails[0].value
+            });
+            newUser.save((err) => {
+                if (err) return done(err);
+                return done(null, newUser);
+            });
+        }
+    });
+}));
+
+// Serialize user to the session
+passport.serializeUser((user, done) => {
+    done(null, user.id);
+});
+
+// Deserialize user from the session
+passport.deserializeUser((id, done) => {
+    User.findById(id, (err, user) => {
+        done(err, user);
+    });
+});
+
+// Routes
+app.get('/auth/google', passport.authenticate('google', {scope: ['profile', 'email']}));
+
+app.get('/auth/google/callback', passport.authenticate('google', {failureRedirect: '/'}), (req, res) => {
+    res.redirect('/profile');
+});
+
+app.get('/profile', (req, res) => {
+    if (!req.user) {
+        return res.redirect('/');
+    }
+    res.send(`Hello, ${req.user.displayName}`);
+});
+
+app.get('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/');
+});
 
 // Common API
 app.get('/data', (req, res) => {

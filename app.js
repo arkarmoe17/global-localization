@@ -38,20 +38,20 @@ app.get('/data', (req, res) => {
         console.log("countryKey and regionKey are provided");
         // If both countryKey and regionKey are provided, return the country, its regions, and townships
         const regions = data.region.find(r => r.countryRefKey === countryKey) || {data: []};
-        const township = data.township.find(t => t.countryRefKey === countryKey) || {data: []};
-        const regionData = township.data.find(r => r.regionRefKey === regionKey) || {data: []};
+        const regionData = data.township.find(t => t.countryRefKey === countryKey) || {data: []};
+        const township = regionData.data.find(r => r.regionRefKey === regionKey) || {data: []};
         return res.json({
             country,
             region: regions.data,
-            township: regionData.data
+            township: township.data
         });
     }
 
+    // error handling
     return res.status(404).send('Invalid data request.');
 });
 
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
-    console.log(`data: ${JSON.stringify(data.country)}`);
 });

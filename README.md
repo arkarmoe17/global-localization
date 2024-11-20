@@ -77,4 +77,28 @@ Here is an example of the JSON structure:
             ]
         }
     ]
-}
+} 
+```
+
+### API Endpoints
+
+#### Common API
+- **URL**: `/data`
+- **Method**: `GET`
+- **Description**: Returns country and region data based on query parameters.
+- **Query Parameters**:
+  - `countryKey` (optional): The key of the country.
+  - `regionKey` (optional): The key of the region.
+- **Examples**:
+  - Get all country information:
+    ```sh
+    curl -X GET http://localhost:3000/data
+    ```
+  - Get country and its regions:
+    ```sh
+    curl -X GET "http://localhost:3000/data?countryKey=1"
+    ```
+  - Get country, its regions, and townships:
+    ```sh
+    curl -X GET "http://localhost:3000/data?countryKey=1&regionKey=2"
+    ```

@@ -1,7 +1,22 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 const fs = require('fs');
+const postRouter = require('./routes/postRoutes');
+
 const app = express();
 const port = 3000;
+
+// Connect to MongoDB
+mongoose.connect('mongodb://localhost:27017/local-trading', {useNewUrlParser: true, useUnifiedTopology: true})
+    .then(() => console.log('MongoDB connected successfully'))
+    .catch(err => {
+        console.error('MongoDB connection error:', err);
+        process.exit(1);
+    });
+
+// Middleware
+app.use(bodyParser.json());
 
 // Read the JSON data from the file
 const data = JSON.parse(fs.readFileSync('country.json', 'utf8'));
@@ -50,6 +65,9 @@ app.get('/data', (req, res) => {
     // error handling
     return res.status(404).send('Invalid data request.');
 });
+
+// Post API
+app.use('/posts', postRouter);
 
 // Start the server
 app.listen(port, () => {
